@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+hr{
+  max-width: 65px;
+  border-width: 30px;
+  border-color: #F05F44;
+  background-color: red;
+}
+
+header{
+  background-image:url(../img/landing-page-header.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.col-lg-12{
+
+  text-align: center;
+}
+.col-lg-12 .did{
+  margin-top: 215px;
+}
+.btn-find{
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  background-color: #F05F44;
+  color: #fff;
+  border: 2px solid #F05F44;
+}
+.btn-find:link,
+.btn-find:visited{
+  color:#fff;
+  border: 2px solid #F05F44;
+  background-color:#F05F44;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  transition: all 0.6s;
+}
+header.startup hr{
+  margin-top: 185px;
+  margin-bottom: 30px;
+}
+.btn-find:hover{
+  background-color: #c0392b;
+  border: 2px solid #c0392b;
+
+}
